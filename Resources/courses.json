@@ -1,0 +1,20 @@
+[
+    {
+        "courseId": "C101",
+        "courseName": "Java Basics",
+        "trainer": "Alice",
+        "durationInWeeks": 6
+    },
+    {
+        "courseId": "C102",
+        "courseName": "Spring Boot",
+        "trainer": "Bob",
+        "durationInWeeks": 4
+    },
+    {
+        "courseId": "C103",
+        "courseName": "HTML & CSS",
+        "trainer": "Charlie",
+        "durationInWeeks": 2
+    }
+]
