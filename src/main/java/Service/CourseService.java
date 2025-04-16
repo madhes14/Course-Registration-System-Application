@@ -48,11 +48,13 @@ public class CourseService {
     static {
         // Load existing courses from JSON file
         courseList = Utility.JsonUtil.readCoursesFromJson();
+        
         if (courseList.isEmpty()) {
             // Initialize with default courses if file is empty or not found
-            courseList.add(new Course("C101", "Java Basics", "Alice", 6));
-            courseList.add(new Course("C102", "Spring Boot", "Bob", 4));
-            courseList.add(new Course("C103", "HTML & CSS", "Charlie", 2));
+//            courseList.add(new Course("C101", "Java Basics", "Alice", 6));
+//            courseList.add(new Course("C102", "Spring Boot", "Bob", 4));
+//            courseList.add(new Course("C103", "HTML & CSS", "Charlie", 2));
+        	courseList.add(new Course("C104", "English", "kavin subash", 2));
             JsonUtil.writeCoursesToJson(courseList); // Save default courses to JSON
         }
 
